@@ -1,0 +1,15 @@
+
+var pooh = function(){
+var textX = random(0, 300);
+var textY = random(0, 300);
+var yourName = "Justin";
+
+fill(255, 0, 0);
+textSize(30);
+text("Hiiii, " + yourName, + textX, + textY);
+};
+pooh();
+
+pooh("1");
+pooh("1");
+pooh("1");
